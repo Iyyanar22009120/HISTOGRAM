@@ -30,6 +30,8 @@ Display the grayscale image.
 ```
 import cv2
 import matplotlib.pyplot as plt
+
+
 # Write your code to find the histogram of gray scale image and color image channels.
 import cv2
 import matplotlib.pyplot as plt
@@ -39,6 +41,8 @@ plt.show()
 color_image=cv2.imread('iss.jpeg')
 plt.imshow(color_image)
 plt.show()
+
+
 # Display the histogram of gray scale image and any one channel histogram from color image
 import cv2
 import matplotlib.pyplot as plt
@@ -62,6 +66,7 @@ plt.xlabel("Intensity Value")
 plt.ylabel("Pixel Count")
 plt.stem(color_hist)
 plt.show()
+
 
 # Write the code to perform histogram equalization of the image. 
 import cv2
